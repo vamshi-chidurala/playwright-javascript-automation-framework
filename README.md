@@ -34,7 +34,7 @@ A portfolio project demonstrating end-to-end web test automation with Playwright
 `-- package.json
 ```
 
-## Scenario covered
+## Scenarios covered
 
 **New user registration**
 
@@ -42,6 +42,17 @@ A portfolio project demonstrating end-to-end web test automation with Playwright
 2. Enter a unique name and email address.
 3. Complete the account-information and address form.
 4. Verify that the account is created successfully.
+
+**Product catalog**
+
+1. Search the public catalog for a product.
+2. Verify that the matching product is displayed.
+3. Open a product detail page and verify availability information.
+
+**Contact page**
+
+1. Open the Contact Us page.
+2. Verify all required form fields are available for the user.
 
 ## Run locally
 

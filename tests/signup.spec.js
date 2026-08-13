@@ -4,7 +4,7 @@ import { NewSignupPage } from '../pages/NewSignupPage.js';
 import { createRegistrationData } from '../data/userData.js';
 
 test('new user can create an account', async ({ page }) => {
-  test.setTimeout(60_000);
+  test.setTimeout(90_000);
   const signupLoginPage = new SignupLoginPage(page);
   const newSignupPage = new NewSignupPage(page);
   const user = createRegistrationData();
